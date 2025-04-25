@@ -79,14 +79,6 @@ countdownLives();
 // Using a do...while loop, write a program that loops through 
 // an array of user feedback and prints each comment until the array is empty.
 
-const userFeedback=(comments)=>{
-    let comment=5;
-    do{
-        console.log(`your are ${comment}`);
-        comment--;
-    }while(comment<=comments)
-}
-    userFeedback(['Good job','keep on trying','nice one','your lacky']);
 
 
     // Write a program that loops through an array of user login 
@@ -145,3 +137,21 @@ const quizcountdown=(mincount)=>{
     }
 }
 quizcountdown(0);
+
+
+
+const userFeedback=(comments)=>{
+   
+    let comment=['good','nice','wonderful' ,'lucky','famous'];
+    do{
+        console.log(`You are,${comment} person`);
+        comment--;
+    }while(comment<=comments)
+
+
+
+}
+
+userFeedback(5);
+
+  
